@@ -1,0 +1,16 @@
+{
+  "name": "Java (Maven) - VirtualStore",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bullseye",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-maven"
+      ]
+    }
+  },
+
+  "postCreateCommand": "cd javaproject/merch && mvn -q -DskipTests clean compile",
+  "postStartCommand": "cd javaproject/merch && java -version && mvn -version"
+}
