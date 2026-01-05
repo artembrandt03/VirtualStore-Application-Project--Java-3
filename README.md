@@ -117,18 +117,6 @@ You can log in using the following test account:
 
 Or feel free to **register a new account directly from the app** — it will be saved automatically to `Users.csv`.
 
-## Demo in Browser (GitHub Codespaces)
-
-1) Click **Code** → **Codespaces** → **Create codespace on main**
-2) Wait for the dev container to finish setting up (it auto-compiles)
-3) Run:
-
-```bash
-cd javaproject/merch
-mvn test
-mvn -q exec:java -Dexec.mainClass="maxiso.App"
-```
-
 ## Features Overview
 
 ### User Management
