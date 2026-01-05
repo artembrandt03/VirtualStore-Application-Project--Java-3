@@ -4,10 +4,13 @@ This repository contains the **MAXISO Virtual Store Application**, a console-bas
 
 The project simulates a fully functional virtual store where users can browse products, manage a shopping cart, register/login, apply coupons, and complete purchases — all while demonstrating **advanced object-oriented design, unit testing, and clean separation of concerns**.
 
-> **Important:**  
+> ⚠️ **Important:**  
 > This project must be run from the `javaproject/merch` directory for file paths (CSV storage) to work correctly.
 
+---
+
 ## Project Overview
+
 The application supports both **guest users** and **registered users**, with registered users gaining access to:
 - Shopping cart functionality
 - Loyalty points
@@ -15,7 +18,10 @@ The application supports both **guest users** and **registered users**, with reg
 
 All data (products, users, coupons) is stored in **CSV files**, making the system lightweight, transparent, and easy to test or modify.
 
+---
+
 ## Concepts Demonstrated
+
 This project showcases the following key programming concepts:
 
 - **Object-Oriented Programming (OOP)**  
@@ -43,7 +49,10 @@ This project showcases the following key programming concepts:
   - Full test coverage of core logic  
   - Ensures correctness and regression safety
 
+---
+
 ## Testing & Quality
+
 The project is **fully unit tested** using **JUnit**.
 
 **Test Results:**
@@ -52,14 +61,20 @@ The project is **fully unit tested** using **JUnit**.
 [INFO] BUILD SUCCESS
 ```
 
-## Tech Stack
+---
+
+## 🛠 Tech Stack
+
 - **Language:** Java  
 - **Build Tool:** Maven  
 - **Testing:** JUnit  
 - **Persistence:** CSV files  
 - **Architecture:** Layered (Business / Data / Display)
 
+---
+
 ## Project Structure
+
 ```
 VirtualStore-Application-Project--Java-3/
 │
@@ -86,29 +101,33 @@ VirtualStore-Application-Project--Java-3/
         └── pom.xml
 ```
 
-## How to Run Locally
+---
 
-1) Clone the repository
+## ▶️ How to Run Locally
+
+### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/artembrandt03/VirtualStore-Application-Project--Java-3.git
+git clone https://github.com/your-username/VirtualStore-Application-Project--Java-3.git
 cd VirtualStore-Application-Project--Java-3
 ```
 
-3) Navigate to the correct directory
+### 2️⃣ Navigate to the correct directory
 ```bash
 cd javaproject/merch
 ```
 
-> **This step is required**  
+> ⚠️ **This step is required**  
 > CSV file paths are relative to this directory.
 
-3) Compile and run the application
+### 3️⃣ Compile and run the application
 ```bash
 mvn clean compile
 mvn exec:java -Dexec.mainClass="maxiso.App"
 ```
 
-### Test Credentials
+---
+
+## 👤 Test Credentials
 
 You can log in using the following test account:
 
@@ -116,6 +135,8 @@ You can log in using the following test account:
 - **Password:** `Test123`
 
 Or feel free to **register a new account directly from the app** — it will be saved automatically to `Users.csv`.
+
+---
 
 ## Features Overview
 
@@ -136,12 +157,14 @@ Or feel free to **register a new account directly from the app** — it will be 
 - Apply coupons during checkout
 - Clear cart after purchase
 
+---
 
-
-## Video Showcase
-(low quality due to video compression)
+## 🎥 Video Showcase
+*(Low quality due to video compression)*  
 
 https://github.com/user-attachments/assets/5850620b-7edb-47a5-97bf-ff6d10488116
+
+---
 
 ## Contributors
 
